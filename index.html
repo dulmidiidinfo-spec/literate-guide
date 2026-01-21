@@ -3,82 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Omnifood</title>
+  <title>Karaama Restaurant</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- NAVBAR -->
   <header class="navbar">
-    <div class="logo">OMNIFOOD</div>
-    <nav>
-      <a href="#home">Bogga Hore</a>
-      <a href="#menu">Cuntooyinka</a>
-      <a href="#contact">Nala Soo Xiriir</a>
-      <a href="#about">Nagu Saabsan</a>
-      <a href="#" class="btn primary">Tijaabi Bilaash</a>
+    <h1 class="logo">Karaama</h1>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <!-- HERO -->
   <section class="hero" id="home">
-    <div class="container">
-      <h1>Cunto caafimaad leh oo maalin walba laguugu keeno albaabkaaga</h1>
+    <div class="hero-text">
+      <h2>Adeeg Cunto oo Shaqeeya 365 Maalmood</h2>
       <p>
-        Waa adeeg cunto oo 365 maalmood ah, kaas oo kaa caawinaya inaad mar kale si caafimaad leh u cunto.
+        Waxaan kaa caawinaynaa inaad hesho cunto caafimaad leh
+        adigoo ku saleynaya dhadhankaaga iyo baahidaada.
       </p>
+      <button class="btn-primary">Bilow Cunista</button>
+      <a href="#about" class="btn-outline">Wax badan ka ogow ↓</a>
+    </div>
 
-      <div class="buttons">
-        <a href="#menu" class="btn primary">Bilow cunis caafimaad leh</a>
-        <a href="#about" class="btn secondary">Wax badan ka ogow ↓</a>
+    <div class="hero-img">
+      <img src="images/hero-meal.jpg" alt="Cunto Caafimaad Leh">
+    </div>
+  </section>
+
+  <!-- MEALS -->
+  <section class="meals" id="menu">
+    <h2>Cuntooyinka</h2>
+    <p>In ka badan 5,000 cunto oo kala duwan</p>
+
+    <div class="meal-cards">
+      <div class="meal-card">
+        <img src="images/meal1.jpg">
+        <h3>Cunto 1</h3>
+        <p>650 Kaloori · ⭐ 4.9</p>
+      </div>
+
+      <div class="meal-card">
+        <img src="images/meal2.jpg">
+        <h3>Cunto 2</h3>
+        <p>400 Kaloori · ⭐ 4.8</p>
+      </div>
+
+      <div class="meal-card">
+        <img src="images/meal3.jpg">
+        <h3>Cunto 3</h3>
+        <p>300 Kaloori · ⭐ 4.7</p>
+      </div>
+
+      <div class="meal-card">
+        <img src="images/meal4.jpg">
+        <h3>Cunto 4</h3>
+        <p>750 Kaloori · ⭐ 4.6</p>
       </div>
     </div>
   </section>
 
-  <!-- MENU -->
-  <section class="menu container" id="menu">
-    <h2>Cuntooyinka</h2>
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <h2>Nagu Saabsan</h2>
+    <p>
+      Karaama Restaurant waa adeeg casri ah oo kuu fududeynaya
+      helidda cunto caafimaad leh maalin kasta.
+    </p>
+    <img src="images/about.jpg" class="about-img">
+  </section>
 
-    <div class="menu-grid">
-      <div class="meal">
-        <img src="images/ul.jpeg" alt="Cunto 1">
-        <p>Cunto 1</p>
-      </div>
+  <!-- SUPPORTERS -->
+  <section class="supporters">
+    <h2>Macaamiil & Taageerayaal</h2>
+    <p>Shirkado iyo macaamiil nagu aaminay adeeggeenna</p>
 
-      <div class="meal">
-        <img src="images/u.jpeg" alt="Cunto 2">
-        <p>Cunto 2</p>
-      </div>
-
-      <div class="meal">
-        <img src="images/uuul.jpeg" alt="Cunto 3">
-        <p>Cunto 3</p>
-      </div>
+    <div class="supporter-logos">
+      <img src="images/support1.png">
+      <img src="images/support2.png">
+      <img src="images/support3.png">
+      <img src="images/support4.png">
     </div>
   </section>
 
   <!-- CONTACT -->
-<section class="contact container" id="contact"></section>
+  <section class="contact" id="contact">
     <h2>Nala Soo Xiriir</h2>
-   
-    
-    <div class="meal">
-        <img src="images/uul.jpeg" alt="content">
-        <p>ugaas 2</p>
-         <p>Waxaad nagala soo xiriiri kartaa email ama taleefan.</p>
-    <p>615546118 ama gmail cwabaab1@gmail.com</p>
-    <p>616402271</p>
-    <p>616013342</p>
+
+    <div class="contact-cards">
+      <div class="contact-card">
+        <h3>Abdulwahab Abdalla Omar</h3>
+        <p>Email: cwahaab1@gmail.com</p>
+        <p>Tel: 615 546118</p>
       </div>
+
+      <div class="contact-card">
+        <h3>Jamiilo Abdirahman Mohamed</h3>
+        <p>Email: engjamila640@gmail.com</p>
+        <p>Tel: 616 402271</p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Abdalla Rahoy Abdirahman</h3>
+        <p>Email: raagecabdullaahi10@gmail.com</p>
+        <p>Tel: 616 013342</p>
+      </div>
+    </div>
+
+    <!-- CONTACT IMAGE -->
+    <img src="images/contact.jpg" class="contact-img">
   </section>
 
-  <!-- ABOUT -->
-  <section class="about container" id="about">
-    <h2>Nagu Saabsan</h2>
-    <p>Baro wax badan oo ku saabsan himiladeena iyo qiimaheena.</p>
-    <p>maqaaxi lagu gado cuntooyin kala duwan .</p>
-    <p>kuwa dalka iyo dibada .</p>
-  </section>
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Karaama Restaurant. Xuquuqdu way xafidan tahay.</p>
+  </footer>
 
 </body>
 </html>
